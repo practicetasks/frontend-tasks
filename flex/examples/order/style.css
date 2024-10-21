@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 850px;
+    min-height: 100%;
+    margin: 0;
+    padding: 0 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-image: url(https://practicetasks.github.io/css/img/flex/dotted.svg);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    max-width: 960px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.banner {
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.banner_first {
+    background-color: #5f0dee;
+}
+
+.banner_second {
+    background-color: #6dc1fd;
+}
+
+.banner_third {
+    background-color: #80d994;
+}
+
+.banner_fourth {
+    background-color: #ffc802;
+}
+
+.banner__text {
+    font-size: 42px;
+    text-align: center;
+}
